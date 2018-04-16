@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5D03FAF2084A8D20025DE68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D03FAE2084A8D20025DE68 /* AppDelegate.m */; };
+		B5D03FB22084A8D20025DE68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D03FB12084A8D20025DE68 /* ViewController.m */; };
+		B5D03FB52084A8D20025DE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D03FB32084A8D20025DE68 /* Main.storyboard */; };
+		B5D03FB72084A8D50025DE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D03FB62084A8D50025DE68 /* Assets.xcassets */; };
+		B5D03FBA2084A8D50025DE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D03FB82084A8D50025DE68 /* LaunchScreen.storyboard */; };
+		B5D03FBD2084A8D50025DE68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D03FBC2084A8D50025DE68 /* main.m */; };
+		B5D03FC72084A8D50025DE68 /* tesaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D03FC62084A8D50025DE68 /* tesaTests.m */; };
+		B5D03FD22084A8D50025DE68 /* tesaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D03FD12084A8D50025DE68 /* tesaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D03FC32084A8D50025DE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5D03FA22084A8D20025DE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D03FA92084A8D20025DE68;
+			remoteInfo = tesa;
+		};
+		B5D03FCE2084A8D50025DE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5D03FA22084A8D20025DE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D03FA92084A8D20025DE68;
+			remoteInfo = tesa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5D03FAA2084A8D20025DE68 /* tesa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D03FAD2084A8D20025DE68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5D03FAE2084A8D20025DE68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5D03FB02084A8D20025DE68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5D03FB12084A8D20025DE68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5D03FB42084A8D20025DE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5D03FB62084A8D50025DE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D03FB92084A8D50025DE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5D03FBB2084A8D50025DE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D03FBC2084A8D50025DE68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5D03FC22084A8D50025DE68 /* tesaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tesaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D03FC62084A8D50025DE68 /* tesaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tesaTests.m; sourceTree = "<group>"; };
+		B5D03FC82084A8D50025DE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D03FCD2084A8D50025DE68 /* tesaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tesaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D03FD12084A8D50025DE68 /* tesaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tesaUITests.m; sourceTree = "<group>"; };
+		B5D03FD32084A8D50025DE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D03FA72084A8D20025DE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D03FBF2084A8D50025DE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D03FCA2084A8D50025DE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D03FA12084A8D20025DE68 = {
+			isa = PBXGroup;
+			children = (
+				B5D03FAC2084A8D20025DE68 /* tesa */,
+				B5D03FC52084A8D50025DE68 /* tesaTests */,
+				B5D03FD02084A8D50025DE68 /* tesaUITests */,
+				B5D03FAB2084A8D20025DE68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D03FAB2084A8D20025DE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D03FAA2084A8D20025DE68 /* tesa.app */,
+				B5D03FC22084A8D50025DE68 /* tesaTests.xctest */,
+				B5D03FCD2084A8D50025DE68 /* tesaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D03FAC2084A8D20025DE68 /* tesa */ = {
+			isa = PBXGroup;
+			children = (
+				B5D03FAD2084A8D20025DE68 /* AppDelegate.h */,
+				B5D03FAE2084A8D20025DE68 /* AppDelegate.m */,
+				B5D03FB02084A8D20025DE68 /* ViewController.h */,
+				B5D03FB12084A8D20025DE68 /* ViewController.m */,
+				B5D03FB32084A8D20025DE68 /* Main.storyboard */,
+				B5D03FB62084A8D50025DE68 /* Assets.xcassets */,
+				B5D03FB82084A8D50025DE68 /* LaunchScreen.storyboard */,
+				B5D03FBB2084A8D50025DE68 /* Info.plist */,
+				B5D03FBC2084A8D50025DE68 /* main.m */,
+			);
+			path = tesa;
+			sourceTree = "<group>";
+		};
+		B5D03FC52084A8D50025DE68 /* tesaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D03FC62084A8D50025DE68 /* tesaTests.m */,
+				B5D03FC82084A8D50025DE68 /* Info.plist */,
+			);
+			path = tesaTests;
+			sourceTree = "<group>";
+		};
+		B5D03FD02084A8D50025DE68 /* tesaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D03FD12084A8D50025DE68 /* tesaUITests.m */,
+				B5D03FD32084A8D50025DE68 /* Info.plist */,
+			);
+			path = tesaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D03FA92084A8D20025DE68 /* tesa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D03FD62084A8D50025DE68 /* Build configuration list for PBXNativeTarget "tesa" */;
+			buildPhases = (
+				B5D03FA62084A8D20025DE68 /* Sources */,
+				B5D03FA72084A8D20025DE68 /* Frameworks */,
+				B5D03FA82084A8D20025DE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tesa;
+			productName = tesa;
+			productReference = B5D03FAA2084A8D20025DE68 /* tesa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5D03FC12084A8D50025DE68 /* tesaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D03FD92084A8D50025DE68 /* Build configuration list for PBXNativeTarget "tesaTests" */;
+			buildPhases = (
+				B5D03FBE2084A8D50025DE68 /* Sources */,
+				B5D03FBF2084A8D50025DE68 /* Frameworks */,
+				B5D03FC02084A8D50025DE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D03FC42084A8D50025DE68 /* PBXTargetDependency */,
+			);
+			name = tesaTests;
+			productName = tesaTests;
+			productReference = B5D03FC22084A8D50025DE68 /* tesaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5D03FCC2084A8D50025DE68 /* tesaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D03FDC2084A8D50025DE68 /* Build configuration list for PBXNativeTarget "tesaUITests" */;
+			buildPhases = (
+				B5D03FC92084A8D50025DE68 /* Sources */,
+				B5D03FCA2084A8D50025DE68 /* Frameworks */,
+				B5D03FCB2084A8D50025DE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D03FCF2084A8D50025DE68 /* PBXTargetDependency */,
+			);
+			name = tesaUITests;
+			productName = tesaUITests;
+			productReference = B5D03FCD2084A8D50025DE68 /* tesaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D03FA22084A8D20025DE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "I2SPACE WEBTECH";
+				TargetAttributes = {
+					B5D03FA92084A8D20025DE68 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B5D03FC12084A8D50025DE68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B5D03FA92084A8D20025DE68;
+					};
+					B5D03FCC2084A8D50025DE68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B5D03FA92084A8D20025DE68;
+					};
+				};
+			};
+			buildConfigurationList = B5D03FA52084A8D20025DE68 /* Build configuration list for PBXProject "tesa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D03FA12084A8D20025DE68;
+			productRefGroup = B5D03FAB2084A8D20025DE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D03FA92084A8D20025DE68 /* tesa */,
+				B5D03FC12084A8D50025DE68 /* tesaTests */,
+				B5D03FCC2084A8D50025DE68 /* tesaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D03FA82084A8D20025DE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D03FBA2084A8D50025DE68 /* LaunchScreen.storyboard in Resources */,
+				B5D03FB72084A8D50025DE68 /* Assets.xcassets in Resources */,
+				B5D03FB52084A8D20025DE68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D03FC02084A8D50025DE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D03FCB2084A8D50025DE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D03FA62084A8D20025DE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D03FB22084A8D20025DE68 /* ViewController.m in Sources */,
+				B5D03FBD2084A8D50025DE68 /* main.m in Sources */,
+				B5D03FAF2084A8D20025DE68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D03FBE2084A8D50025DE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D03FC72084A8D50025DE68 /* tesaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D03FC92084A8D50025DE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D03FD22084A8D50025DE68 /* tesaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D03FC42084A8D50025DE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D03FA92084A8D20025DE68 /* tesa */;
+			targetProxy = B5D03FC32084A8D50025DE68 /* PBXContainerItemProxy */;
+		};
+		B5D03FCF2084A8D50025DE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D03FA92084A8D20025DE68 /* tesa */;
+			targetProxy = B5D03FCE2084A8D50025DE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5D03FB32084A8D20025DE68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D03FB42084A8D20025DE68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5D03FB82084A8D50025DE68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D03FB92084A8D50025DE68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D03FD42084A8D50025DE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5D03FD52084A8D50025DE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D03FD72084A8D50025DE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRFQ7YJ5UW;
+				INFOPLIST_FILE = tesa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D03FD82084A8D50025DE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRFQ7YJ5UW;
+				INFOPLIST_FILE = tesa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5D03FDA2084A8D50025DE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRFQ7YJ5UW;
+				INFOPLIST_FILE = tesaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tesa.app/tesa";
+			};
+			name = Debug;
+		};
+		B5D03FDB2084A8D50025DE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRFQ7YJ5UW;
+				INFOPLIST_FILE = tesaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tesa.app/tesa";
+			};
+			name = Release;
+		};
+		B5D03FDD2084A8D50025DE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRFQ7YJ5UW;
+				INFOPLIST_FILE = tesaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tesa;
+			};
+			name = Debug;
+		};
+		B5D03FDE2084A8D50025DE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRFQ7YJ5UW;
+				INFOPLIST_FILE = tesaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tesa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D03FA52084A8D20025DE68 /* Build configuration list for PBXProject "tesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D03FD42084A8D50025DE68 /* Debug */,
+				B5D03FD52084A8D50025DE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D03FD62084A8D50025DE68 /* Build configuration list for PBXNativeTarget "tesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D03FD72084A8D50025DE68 /* Debug */,
+				B5D03FD82084A8D50025DE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D03FD92084A8D50025DE68 /* Build configuration list for PBXNativeTarget "tesaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D03FDA2084A8D50025DE68 /* Debug */,
+				B5D03FDB2084A8D50025DE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D03FDC2084A8D50025DE68 /* Build configuration list for PBXNativeTarget "tesaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D03FDD2084A8D50025DE68 /* Debug */,
+				B5D03FDE2084A8D50025DE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D03FA22084A8D20025DE68 /* Project object */;
+}
